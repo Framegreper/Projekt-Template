@@ -1,0 +1,136 @@
+{
+    //"image": "fedora:latest",
+    "name": "Projectname",
+    //"dockerComposeFile": "docker-compose.yaml", or dockerfile attribute
+    "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+    },
+    // "service": "development",
+    //"workspaceFolder": "/workspaces/"
+    //"onCreateCommand": "",
+    //"initializeCommand": "test -f .env.local || touch .env.local",
+
+    "customizations": {
+      "vscode": {
+          "settings": {
+            "python.defaultInterpreterPath": "/usr/local/bin/python"
+          },
+          "extensions": [
+            // Development:
+              //Plan:
+              //Code
+                 //Programming Languages:
+                  // Default
+                    //Python:
+                      "ms-python.python"
+                    //Racket:
+                    //"Dmytro.racket",
+                    //"ironm00n.magic-racket-student",
+                    //"evzen-wybitul.magic-racket",
+                    //"karyfoundation.racket",
+                    //Groovy
+                    // Bash:
+                      //"mads-hartmann.bash-ide-vscode"
+                      //"rogalmic.bash-debug",
+                      //"timonwong.shellcheck",
+                  // Mainframe
+                    //Go
+                    // "golang.Go",
+                    //COBOL,REXX,PL/I and ASM:
+                   // "broadcomMFD.code4z-extension-pack",
+                  // Datascience
+                    //R
+                    //"REditorSupport.r",
+                    //"RDebugger.r-debugger",
+                    //SQL
+                    //Julia
+                    //Scala
+                    //C
+                    //Javascript
+                    //Matlab
+                    //SAS
+              //Build
+              //Test
+                //Debug
+                //Manual Tests
+                //System Tests
+                //Integration Tests
+                // Component Tests
+                //Unit Test
+
+              //Release
+              //Deploy
+              //Operate
+              //Monitor
+            //Scientific Writing:
+              // Latex:
+              // "James-Yu.latex-workshop",
+              //"draivin.hsnips",
+              //"OrangeX4.hsnips",
+              //"OrangeX4.latex-sympy-calculator",
+              //"ryuta46.multi-command",
+              //"streetsidesoftware.code-spell-checker",
+              //"valentjn.VSCode-ltex",
+              //Markdown:
+              // "yzhang.markdown-all-in-one",
+              //"jerriepelser.copy-markdown-as-html",
+              //"brunnerh.insert-unicode",
+              // SVG:
+              //"peterson.super-figure",
+              
+              //"formulahendry.code-runner",
+
+
+            //Organisation:
+              //Attlassian:
+//              "Atlassian.atlascode",
+//              "Tempo.tempotimetracking",
+//              "aooiu.markdown2confluence",
+//              "jinzihang.jiralens"
+
+          ]
+      }
+  },
+
+  //"features": {
+  //      "ghcr.io/devcontainers/features/common-utils:2":{
+  //        "installZsh": "true",
+  //        "username": "vscode",
+  //        "userUid": "1000",
+  //        "userGid": "1000",
+  //        "upgradePackages": "true"
+  //    },
+  //    "ghcr.io/devcontainers/features/python:1": "none",
+  //    "ghcr.io/devcontainers/features/node:1": "none",
+  //    "ghcr.io/devcontainers/features/git:1": {
+  //        "version": "latest",
+  //        "ppa": "false"
+  //    }
+//  },
+
+//  "updateContentCommand": "[ -f packages.txt ] && sudo apt update && sudo apt upgrade && sudo xargs apt install -y <packages.txt; pip3 install --user -r requirements.txt",
+//  "postAttachCommand": {
+//    "server": "streamlit run streamlit_app.py --server.enableCORS false --server.enableXsrfProtection false"
+//  },
+
+  "portsAttributes": {
+    "8501": {
+      "label": "Application",
+      "onAutoForward": "openPreview"
+    }
+},
+
+    "forwardPorts": [
+      9081,
+      9444,
+      8501
+    ]
+
+//    "postCreateCommand": "pip install --user -r requirements.txt"
+       
+//  "postStartCommand": "yarn"
+
+    // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	  // "remoteUser": "root"
+  }

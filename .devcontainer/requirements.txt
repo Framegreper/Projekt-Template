@@ -1,0 +1,29 @@
+#NumPy
+#pandas
+#Matplotlib
+#Seaborn
+#Plotly
+#Scikit-Learn
+#LightGBM
+#XGBoost
+#CatBoost
+#Statsmodels
+#RAPIDS.AI cuDF and cuML
+#Optuna
+#PyCaret
+#H2O
+#TPOT
+#Auto-sklearn
+#FLAML
+#TensorFlow
+#PyTorch
+#FastAI
+#Keras
+#PyTorch Lightning
+#NLTK
+#spaCy
+#Gensim
+#Hugging Face Transformers
+streamlit==1.33.0 
+hy==0.28.0 
+#setuptools
