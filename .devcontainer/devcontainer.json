@@ -14,84 +14,119 @@
     "customizations": {
       "vscode": {
           "settings": {
+            //Andere Pfade und Tex settings
             "python.defaultInterpreterPath": "/usr/local/bin/python"
+            
           },
           "extensions": [
             // Development:
-              //Plan:
+              //Plan and Scientific Writing:
+                // Latex:
+                  // "James-Yu.latex-workshop",
+                  //"draivin.hsnips",
+                  //"OrangeX4.hsnips",
+                  //"OrangeX4.latex-sympy-calculator",
+                  //"ryuta46.multi-command",
+                  //"streetsidesoftware.code-spell-checker",
+                  //"valentjn.VSCode-ltex",
+                //Attlassian:
+                  //"Atlassian.atlascode"
+                  //"Tempo.tempotimetracking", Works
+                  //"aooiu.markdown2confluence"
+                  //"jinzihang.jiralens" Works
+
+                //Calender:
+                  //"Gruntfuggly.calendar",
+                //Markdown:
+                  // "yzhang.markdown-all-in-one",
+                  //"jerriepelser.copy-markdown-as-html",
+                  //"brunnerh.insert-unicode",
+                // SVG:
+                //  "peterson.super-figure", missing create
+                //Diagramm:
+
               //Code
-                 //Programming Languages:
+                //LSP:
                   // Default
-                    //Python:
-                      "ms-python.python"
+                    //Python: D
+                      "ms-python.python",
                     //Racket:
                     //"Dmytro.racket",
                     //"ironm00n.magic-racket-student",
                     //"evzen-wybitul.magic-racket",
                     //"karyfoundation.racket",
                     //Groovy
-                    // Bash:
+                    // Bash: D
                       //"mads-hartmann.bash-ide-vscode"
                       //"rogalmic.bash-debug",
                       //"timonwong.shellcheck",
                   // Mainframe
-                    //Go
+                    //Go D
                     // "golang.Go",
                     //COBOL,REXX,PL/I and ASM:
                    // "broadcomMFD.code4z-extension-pack",
                   // Datascience
-                    //R
+                    //R D
                     //"REditorSupport.r",
                     //"RDebugger.r-debugger",
                     //SQL
-                    //Julia
+                    //Julia D
+                    //"julialang.language-julia"
                     //Scala
-                    //C
-                    //Javascript
+                    //C D
+                    //"ms-vscode.cpptools"
+                    //Javascript D
                     //Matlab
                     //SAS
+                    //"SAS.sas-lsp"
               //Build
               //Test
-                //Debug
+                //Debug and Test
+                //"ms-python.debugpy"
+                //"wowbox.code-debuger"
+                // "JudyTeam.julia-debug"
+                //"formulahendry.code-runner",
+
                 //Manual Tests
                 //System Tests
                 //Integration Tests
                 // Component Tests
                 //Unit Test
+                //"takas-ho.unittest-switcher",
+
 
               //Release
               //Deploy
               //Operate
               //Monitor
-            //Scientific Writing:
-              // Latex:
-              // "James-Yu.latex-workshop",
-              //"draivin.hsnips",
-              //"OrangeX4.hsnips",
-              //"OrangeX4.latex-sympy-calculator",
-              //"ryuta46.multi-command",
-              //"streetsidesoftware.code-spell-checker",
-              //"valentjn.VSCode-ltex",
-              //Markdown:
-              // "yzhang.markdown-all-in-one",
-              //"jerriepelser.copy-markdown-as-html",
-              //"brunnerh.insert-unicode",
-              // SVG:
-              //"peterson.super-figure",
-              
-              //"formulahendry.code-runner",
-
-
-            //Organisation:
-              //Attlassian:
-//              "Atlassian.atlascode",
-//              "Tempo.tempotimetracking",
-//              "aooiu.markdown2confluence",
-//              "jinzihang.jiralens"
-
+              //"AndrewButson.vscode-system-monitor"
+              //Misc             
+              // "shyykoserhiy.vscode-spotify", Works
+              //  "sirkane.vscode-mediaplayer", vielleicht ersetzen durch rrs reader
+              "ms-toolsai.jupyter",
+              "Kush.jupyterscript",
+              "xelad0m.jupyter-toc",
+              "sam-the-programmer.jupyter-theme",
+              "rebornix.better-jupyter-errors",
+              "Leytton.jupyter-to-markdown",
+              "engineernick.vscode-create-jupyter",
+              "JonathanHuston.hy-jupyter",
+              "donjayamanne.vscode-default-python-kernel",
+              "henryansah.notejs",
+              "willemmirkovich.jupyter-vim-keymap",
+              "JaeyongLee.jupyter-companion",
+              "KevinRose.vsc-python-indent",
+              "micoloth.reactive-jupyter",
+              "jithurjacob.nbpreviewer"
+              "ms-toolsai.vscode-jupyter-powertoys"
+              "Vikasdubey0551.jupyterlab-browser",
+              //AI
+                "DanielSanMedium.dscodegpt",
+//                "ikasann-self.vscode-chat-gpt" Works
+                "sourcegraph.cody-ai"
           ]
       }
-  },
+  }
 
   //"features": {
   //      "ghcr.io/devcontainers/features/common-utils:2":{
@@ -114,18 +149,18 @@
 //    "server": "streamlit run streamlit_app.py --server.enableCORS false --server.enableXsrfProtection false"
 //  },
 
-  "portsAttributes": {
-    "8501": {
-      "label": "Application",
-      "onAutoForward": "openPreview"
-    }
-},
+//  "portsAttributes": {
+//    "8501": {
+//      "label": "Application",
+//      "onAutoForward": "openPreview"
+//    }
+//}
 
-    "forwardPorts": [
-      9081,
-      9444,
-      8501
-    ]
+//    "forwardPorts": [
+//      9081,
+//      9444,
+//      8501
+//    ]
 
 //    "postCreateCommand": "pip install --user -r requirements.txt"
        
