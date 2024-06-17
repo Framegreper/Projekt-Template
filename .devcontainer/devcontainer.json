@@ -21,20 +21,6 @@
           "extensions": [
             // Development:
               //Plan and Scientific Writing:
-                // Latex:
-                  // "James-Yu.latex-workshop",
-                  //"draivin.hsnips",
-                  //"OrangeX4.hsnips",
-                  //"OrangeX4.latex-sympy-calculator",
-                  //"ryuta46.multi-command",
-                  //"streetsidesoftware.code-spell-checker",
-                  //"valentjn.VSCode-ltex",
-                //Attlassian:
-                  //"Atlassian.atlascode"
-                  //"Tempo.tempotimetracking", Works
-                  //"aooiu.markdown2confluence"
-                  //"jinzihang.jiralens" Works
-
                 //Calender:
                   //"Gruntfuggly.calendar",
                 //Markdown:
@@ -50,11 +36,6 @@
                   // Default
                     //Python: D
                       "ms-python.python",
-                    //Racket:
-                    //"Dmytro.racket",
-                    //"ironm00n.magic-racket-student",
-                    //"evzen-wybitul.magic-racket",
-                    //"karyfoundation.racket",
                     //Groovy
                     // Bash: D
                       //"mads-hartmann.bash-ide-vscode"
@@ -101,25 +82,9 @@
               //Monitor
               //"AndrewButson.vscode-system-monitor"
               //Misc             
-              // "shyykoserhiy.vscode-spotify", Works
-              //  "sirkane.vscode-mediaplayer", vielleicht ersetzen durch rrs reader
-              "ms-toolsai.jupyter",
-              "Kush.jupyterscript",
-              "xelad0m.jupyter-toc",
-              "sam-the-programmer.jupyter-theme",
-              "rebornix.better-jupyter-errors",
-              "Leytton.jupyter-to-markdown",
-              "engineernick.vscode-create-jupyter",
-              "JonathanHuston.hy-jupyter",
-              "donjayamanne.vscode-default-python-kernel",
               "henryansah.notejs",
-              "willemmirkovich.jupyter-vim-keymap",
-              "JaeyongLee.jupyter-companion",
               "KevinRose.vsc-python-indent",
-              "micoloth.reactive-jupyter",
               "jithurjacob.nbpreviewer"
-              "ms-toolsai.vscode-jupyter-powertoys"
-              "Vikasdubey0551.jupyterlab-browser",
               //AI
                 "DanielSanMedium.dscodegpt",
 //                "ikasann-self.vscode-chat-gpt" Works
